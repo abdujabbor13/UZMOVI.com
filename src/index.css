@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --header-top-bg:#222933;
+  --header-border-color:#313842;
+  --header-bottom-bg:#131a20;
+  --header-bottom-border-color:#1d232c;
+  --header-main-color:#161d25;
+  --right-main-content-bg:#24303d;
+  --right-main-content-border-color:#304156;
+  --taxt-color:#a5bbdc;
+}
+
+body{
+  background-color: var(--header-main-color);
+  color: var(--taxt-color);
+}
+
+.container-main{
+  width: 1210px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
