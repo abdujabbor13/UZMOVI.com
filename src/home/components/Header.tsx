@@ -219,7 +219,6 @@ const Header = () => {
       <div className='bg-[#131a20]'>
         <div className="container-main">
 
-          {/* Foydalanuvchi bloklari */}
           <div className="flex flex-col md:flex-row items-center gap-4 pt-8">
 
             <ul className='flex items-center md:mr-auto gap-2'>
