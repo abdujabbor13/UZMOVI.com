@@ -9,17 +9,48 @@
   --right-main-content-bg:#24303d;
   --right-main-content-border-color:#304156;
   --taxt-color:#a5bbdc;
+  --btn-group-bg:#232f3d;
 }
 
 body{
   background-color: var(--header-main-color);
   color: var(--taxt-color);
+  font-family: 'open-sans', sans-serif;
 }
 
-.container-main{
-  width: 1210px;
+.container-main {
+  max-width: 1210px;
+  width: 100%;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+.text-color{
+  color: var(--taxt-color);
+}
+
+.header-bg{
+  background-color: var(--header-top-bg);
+  border-color: var(--header-border-color);
+}
+
+.btn-group-bg{
+  background-color: var(--btn-group-bg);
+  border-color: var(--right-main-content-border-color);
+}
+
+.link-bg{
+  background-color: var(--right-main-content-border-color);
+}
+
+/* Scrollbar'ni yashirish */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
