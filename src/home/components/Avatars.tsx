@@ -1,4 +1,4 @@
-import { Avatar, Space } from 'antd';
+import { Avatar} from 'antd';
 const Avatars = () => {
 
   const avat = [
