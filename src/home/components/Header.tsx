@@ -236,7 +236,6 @@ const Header = () => {
               </li>
             </ul>
 
-            {/* Iconlar */}
             <ul className='flex items-center gap-2'>
               <li>
                 <a className='bg-[#222933] py-2 px-3 border border-[#313842] rounded-sm' href="#">
@@ -256,7 +255,6 @@ const Header = () => {
             </ul>
           </div>
 
-          {/* Qidiruv inputi */}
           <form className='mt-6 relative pb-4'>
             <input
               className='bg-[#222933] pl-5 pr-10 py-2 rounded-sm w-full border border-[#313842]'
