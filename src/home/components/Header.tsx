@@ -222,7 +222,6 @@ const Header = () => {
           {/* Foydalanuvchi bloklari */}
           <div className="flex flex-col md:flex-row items-center gap-4 pt-8">
 
-            {/* Kirish / Ro'yxatdan o‘tish */}
             <ul className='flex items-center md:mr-auto gap-2'>
               <li>
                 <a className='bg-[#222933] py-2 px-3 border border-[#313842] rounded-sm text-xs flex items-center' href="#">
