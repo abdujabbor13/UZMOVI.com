@@ -1,3 +1,4 @@
+import Carts from "./components/Carts"
 import Header from "./components/Header"
 import Slider from "./components/Slider"
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <Header />
       <Slider />
+      <Carts />
     </div>
   )
 }

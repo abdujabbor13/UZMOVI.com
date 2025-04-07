@@ -216,10 +216,10 @@ const Header = () => {
       )}
       <Avatars />
 
-      <div className='bg-[#131a20]'>
+      <div className='bg-[#131a20] py-8'>
         <div className="container-main">
 
-          <div className="flex flex-col md:flex-row items-center gap-4 pt-8">
+          <div className="flex flex-col md:flex-row items-center gap-4">
 
             <ul className='flex items-center md:mr-auto gap-2'>
               <li>
